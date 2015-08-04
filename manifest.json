@@ -1,0 +1,17 @@
+{
+  "name": "TheASP The Assignment Portal - Assignment Notifier",
+  "manifest_version": 2,
+  "version": "0.1",
+   "homepage_url": "http://localhost/aspbs",
+   "icons": { "16": "images/logo16.png",
+           "48": "images/logo48.png",
+          "128": "images/logo128.png" },
+	"web_accessible_resources":["images/logo.png"
+	],
+  "description": "Assignment Notifier Of TheASP",
+  "browser_action": {
+    "default_icon": "images/logo48.png",
+	"default_title": "TheASP The Assignment Portal",     
+          "default_popup": "popup.html" 
+  }
+}
